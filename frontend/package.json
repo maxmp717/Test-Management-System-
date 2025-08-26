@@ -12,8 +12,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "vercel-build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "chmod +x node_modules/.bin/react-scripts || exit 0"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +40,8 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   },
-  "proxy": "https://test-management-system.onrender.com"
+  "proxy": "https://test-management-system.onrender.com",
+  "engines": {
+    "node": "18.x"
+  }
 }
