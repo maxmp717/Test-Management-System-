@@ -104,6 +104,9 @@ const authenticateToken = (req, res, next) => {
         next();
     });
 };
+app.get("/api/test", (req, res) => {
+  res.json({ message: "Backend is working ✅" });
+});
 
 // Routes
 
