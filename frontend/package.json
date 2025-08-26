@@ -7,11 +7,9 @@
     "ajv": "^8.17.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "serve": "^14.2.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "serve": "serve -s build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,8 +38,5 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   },
-  "engines": {
-    "node": "22.x",
-    "npm": ">=10.0.0"
-  }
+  "proxy": "https://test-management-system.onrender.com"
 }
